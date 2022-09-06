@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .grid-conter{
+        display: grid;
+        gap: 10px;
+        background-color: green;
+        text-align: center;
+    }
+    .grid-item{
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .item1{
+        grid-column: 1/span 2;
+        grid-row: 1;
+    }
+    .item2{
+        grid-column: 1;
+        grid-row: 2/span 2;
+    }
+    .item3{
+        grid-column: 2/span 2;
+        grid-row: 2/ span 2;
+    }
+</style>
+<body>
+    <div style="background-color: green; display: flex;">
+        <div style="background-color: white; padding-top: 50px;">
+        </div>
+        <h1 class="grid-conter" style="width: 50%;">
+            <span class="grid-item item1" style="color: white; font-size: 40px;">una  esperiencia<br> totalmente nueva<br> en el arte </span>
+            <span class="grid-item item2" style="color: white; background-color: red;">elebrijes mexicanos</span>"
+    
+</body>
+</html>
