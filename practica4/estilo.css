@@ -1,0 +1,18 @@
+body {
+       background-image: url("imagen.hero/hero.jpg");
+       background-repeat: no-repeat;
+       background-position: 100px;
+
+}
+
+</style>
+<body>
+    <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg">
+    <div style="background-color: white; text-align: right;"></div>
+    <nav>
+        <a href="#" style="margin-left: 20px;">residentes</a>
+        <a href="#" style="margin-left: 20px;">negocios</a>
+        <a href="#" style="margin-left: 20px;">visitantes</a>
+        <a href="#" style="margin-left: 20px;">gobierno</a>
+    </nav>
+    </div>

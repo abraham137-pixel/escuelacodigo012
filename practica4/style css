@@ -1,7 +1,0 @@
-#8C9D9D
-https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg
- body {
-        background-image: url("imagen.hero/hero.jpg");
-        background-repeat: no-repeat;
-        background-position: 100px;
-        
