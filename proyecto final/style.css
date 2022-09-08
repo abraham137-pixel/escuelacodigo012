@@ -1,32 +1,38 @@
+button{
+    border-radius: 50px;
+    background-color: transparent;
+    border:solid 1px black;
+}
+.botonespedidos{
+color: white;
+background-color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.botonespedidos{
+    background-color: white;
+    color: transparent;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.link{
+    text-decoration: underline;
+}
 section{
-    
-}
-
-
-
-
-
-
-
-.grid-conter{
-    display: grid;
-    gap: 10px;
-    background-color: green;
+    justify-content: center;
+    background-color: red;
+    color: white;
     text-align: center;
-}
-.grid-item{
-    padding-left: 20px;
     font-size: 30px;
 }
-.texto{
-    grid-column: 1/span 2;
-    grid-row: 1;
+.secionima{
+    height: 100%;
+    width: 50%;
 }
-.texto1{
-    grid-column: 1;
-    grid-row: 2/span 2;
-}
-.texto2{
-    grid-column: 2/span 2;
-    grid-row: 2/ span 2;
+.estilosection{
+    background-color: greenyellow;
 }
