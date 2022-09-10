@@ -1,38 +1,51 @@
-button{
+button {
     border-radius: 50px;
     background-color: transparent;
-    border:solid 1px black;
+    border: solid 1px black;
 }
-.botonespedidos{
-color: white;
-background-color: white;
+
+.botonespedidos {
+    color: white;
+    background-color: white;
 }
-button:hover{
+
+button:hover {
     background-color: black;
     color: white;
 }
-.botonespedidos{
+
+.botonespedidos {
     background-color: white;
     color: transparent;
 }
-a{
+
+a {
     text-decoration: none;
     font-weight: bold;
 }
-.link{
+
+.link {
     text-decoration: underline;
 }
-section{
+
+section {
     justify-content: center;
     background-color: red;
     color: white;
     text-align: center;
     font-size: 30px;
 }
-.secionima{
+
+.secionima {
     height: 100%;
     width: 50%;
 }
-.estilosection{
-    background-color: greenyellow;
+
+.estilosection {
+    background-color: #006241;
+}
+
+.mejoras {
+    height: 10%;
+    width: 20%;
 }
